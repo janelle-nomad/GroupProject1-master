@@ -19,14 +19,14 @@
           <p>
                  <ul style="line-height:35px;">
              
-                    <h3> Main Features:  </h3>
+                    <h4> Main Features:</h4>
                  
                       <li> Simple - search for products easily. </li>
                       <li>Mobile friendly </li>
                       <li> Analyze Sales trends. </li>
                       <li> Import and export unlimited data using CSV files.  </li>
-                      <li>Create and track book lists by isbn, author, date, cost</br>
-                       or other specific feature  and keep  the history of each item.  </li>
+                      <li>Create and track book lists by isbn, author, date, cost<br>
+                       or other specific feature  and keep  the history of each item.</li>
                  </ul>
              </p>
            </div>
@@ -37,7 +37,7 @@
         </div>
 
  </div>
-</br>
+<br>
      
     <div class="row">
         
