@@ -13,7 +13,7 @@
         <div class="form-group">
             <asp:Label runat="server" AssociatedControlID="PhoneNumber" CssClass="col-md-2 control-label">Phone Number</asp:Label>
             <div class="col-md-10">
-                <asp:TextBox runat="server" ID="PhoneNumber" CssClass="form-control" TextMode="Phone" />
+                <asp:TextBox runat="server" ID="PhoneNumber" CssClass="form-control" Text="Phone" />
                 <asp:RequiredFieldValidator runat="server" ControlToValidate="PhoneNumber"
                     CssClass="text-danger" ErrorMessage="The PhoneNumber field is required." />
             </div>
