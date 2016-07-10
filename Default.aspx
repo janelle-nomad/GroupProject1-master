@@ -13,8 +13,7 @@
     </br>
     <div class="row">
         <div class="col-md-12">
-            <h1 style="text-align:center; color:#751515; font-weight:bold;">Save time, Save Money, Relax</h1>
-           
+       
              <hr>
             <p style="text-align:center; line-height:30px;">
                 Providing people with reasonable book price and emerging Indigo bookstore trends is
