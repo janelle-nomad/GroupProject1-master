@@ -14,42 +14,14 @@
         <h4>Create a new account</h4>
         <hr />
         <asp:ValidationSummary runat="server" CssClass="text-danger" />
-        
-        <div class="form-group">
-          <asp:Label runat="server" AssociatedControlID="FirstName" CssClass="form-control" TextMode="Text"></asp:Label>  
-          <div class="col-md-10">
-              <asp:TextBox runat="server" ID="FirstName" required="true"></asp:TextBox>
-              <asp:RequiredFieldValidator runat="server" ID="FirstNameVal" ControlToValidate="FirstName" CssClass="alert-danger" 
-                  ErrorMessage="First Name is required"></asp:RequiredFieldValidator>
-          </div>
-        </div>
-        
-        div class="form-group">
-          <asp:Label runat="server" AssociatedControlID="LastName" CssClass="form-control" TextMode="Text"></asp:Label>  
-          <div class="col-md-10">
-              <asp:TextBox runat="server" ID="LastName" required="true"></asp:TextBox>
-              <asp:RequiredFieldValidator runat="server" ID="LastNameVal" ControlToValidate="LastName" CssClass="alert-danger" 
-                  ErrorMessage="Last Name is required"></asp:RequiredFieldValidator>
-          </div>
-        </div>
-
         <div class="form-group">
             <asp:Label runat="server" AssociatedControlID="Email" CssClass="col-md-2 control-label">Email</asp:Label>
             <div class="col-md-10">
-                <asp:TextBox runat="server" ID="EmailTb" CssClass="form-control"></asp:TextBox>
-                <asp:RequiredFieldValidator runat="server" ControlToValidate="Email" CssClass="text-danger" ErrorMessage="The email field is required."></asp:RequiredFieldValidator>
-                 <asp:RegularExpressionValidator ID="emailVal" runat="server" ControlToValidate="EmailTb" ValidationExpression="^\S+@\S+\.\S+$" ErrorMessage="You must enter a valid email address!"></asp:RegularExpressionValidator>
-
+                <asp:TextBox runat="server" ID="Email" CssClass="form-control" TextMode="Email" />
+                <asp:RequiredFieldValidator runat="server" ControlToValidate="Email"
+                    CssClass="text-danger" ErrorMessage="The email field is required." />
             </div>
         </div>
-
-        <div class="form-group">
-                    <asp:Label ID="UserLb" runat="server">UserName</asp:Label>
-                    <asp:TextBox CssClass="form-control" ID="UserNameTb" required="true" runat="server"></asp:TextBox>
-                    <asp:RequiredFieldValidator runat="server" ID="UserNameReq" ControlToValidate="UserNameTb" CssClass="alert alert-danger" 
-                        ErrorMessage="User Name Required" ></asp:RequiredFieldValidator>
-                </div>
-
         <div class="form-group">
             <asp:Label runat="server" AssociatedControlID="Password" CssClass="col-md-2 control-label">Password</asp:Label>
             <div class="col-md-10">
@@ -82,5 +54,6 @@
            ImageAlign="left"
            ImageUrl="~/icons/register.png"/>
          </div>
-    
+
+</div>
 </asp:Content>
