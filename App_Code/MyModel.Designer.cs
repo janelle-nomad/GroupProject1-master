@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\Madeleine\Documents\REPOSIT\GroupProject-1-Master\App_Code\MyModel.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\Madeleine\Desktop\GroupProject-1-Master\App_Code\MyModel.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

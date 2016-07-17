@@ -55,13 +55,13 @@ footer {
     border-spacing: 0;
     width: 100%;
     border: 1px solid #ffffff;
-
+  
   
 }
 
 .tabletwo th, td {
     border: none;
-    text-align: right;
+    text-align: left;
     padding: 10px;
   
 }
